@@ -2,19 +2,15 @@
 //  ContentView.swift
 //  DesignCodeiOSSwiftUI
 //
+//  Created by Vladislav Yakubets on 15.02.2022.
+//
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
-            RoundedRectangle(cornerRadius: 25)
-                .stroke(lineWidth: 3)
-                .foregroundColor(.red)
-                .padding()
-            Text("Hello, world!")
-                .foregroundColor(.orange)
-        }
+        Text("Hello, world!")
+            .padding()
     }
 }
 
@@ -23,4 +19,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
